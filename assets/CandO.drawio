@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-05-23T09:39:45.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="XhcGstFtJM3zEzRfmeLl" version="24.4.4" type="device">
+  <diagram name="Providers" id="8KQjAsfu19Bx2LMhdp1l">
+    <mxGraphModel dx="2064" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-5" value="JSON" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document_blank;labelBackgroundColor=#000000;fontColor=#FFFFFF;labelBorderColor=none;fontFamily=Tahoma;fontStyle=1;fontSize=18;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="68.58" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-6" value="XML" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document_blank;labelBackgroundColor=#000000;fontColor=#FFFFFF;labelBorderColor=none;fontFamily=Tahoma;fontStyle=1;fontSize=18;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="68.58" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-8" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.secrets_manager;" parent="1" vertex="1">
+          <mxGeometry x="80" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#000000;shape=mxgraph.mscae.oms.config_assessment;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="80" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#000000;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.powershell;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="402" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/web-development-and-studio/512/52_Imagination_imaginative_imagine_idea_process_creative_skills_process-128.png" parent="1" vertex="1">
+          <mxGeometry x="80" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-12" value="Sources" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-13" value="appsettings.json&lt;div&gt;appsettings.development.json&lt;/div&gt;&lt;div&gt;appsettings.production.json&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-14" value="Providers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="240" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-15" value="XML File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-16" value="Environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="341" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-17" value="Command line" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="427" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-18" value="AWS Secret manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="575" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-19" value="Others" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="675" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-20" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-21" value="Builder" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="640" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/competitive-strategy-and-corporate-training/512/736_Efficiency_management_processing_productivity_project_Business_Management-128.png" parent="1" vertex="1">
+          <mxGeometry x="656" y="346" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-24" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="80" width="20" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="g7It3P7Qjhj9A2mmzMjz-25" value="IConfiguration" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#EBEBEB;shape=mxgraph.archimate3.application;appType=interface;archiType=square;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="840" y="350" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yurDavVmerwRPTPcA-fx-1" value="Examples" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="440" y="50" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yurDavVmerwRPTPcA-fx-2" value="JSON File" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yurDavVmerwRPTPcA-fx-3" value="web.config" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yurDavVmerwRPTPcA-fx-5" value="demo.exe --arg1=value1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="427" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

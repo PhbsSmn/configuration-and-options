@@ -1,0 +1,6 @@
+@OptionTypes_HostAddress = https://localhost:7010
+
+GET {{OptionTypes_HostAddress}}/options/
+Accept: application/json
+
+###

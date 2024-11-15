@@ -1,0 +1,32 @@
+{
+    "profiles": {
+        "dev": {
+            "commandName": "Project",
+            "commandLineArgs": "--AppSettings:Setting6=CmdValue6",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_AppSettings__Setting1": "StartupValue1",
+                "ASPNETCORE_AppSettings__Setting2": "StartupValue2",
+                "ASPNETCORE_AppSettings__Setting3": "StartupValue3",
+                "AppSettings__Setting5": "EnvValue5",
+                "AppSettings__Setting6": "EnvValue6"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "https://localhost:7001;"
+        },
+        "other": {
+            "commandName": "Project",
+            "commandLineArgs": "--AppSettings:Setting6=CmdValue6",
+            "environmentVariables": {
+                "ASPNETCORE_AppSettings__Setting1": "StartupValue1",
+                "ASPNETCORE_AppSettings__Setting2": "StartupValue2",
+                "ASPNETCORE_AppSettings__Setting3": "StartupValue3",
+                "AppSettings__Setting5": "EnvValue5",
+                "AppSettings__Setting6": "EnvValue6"
+            },
+            "dotnetRunMessages": true,
+            "applicationUrl": "https://localhost:7001;"
+        }
+    },
+  "$schema": "http://json.schemastore.org/launchsettings.json"
+}

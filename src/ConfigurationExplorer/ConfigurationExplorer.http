@@ -1,0 +1,9 @@
+@ConfigurationExplorer_HostAddress = https://localhost:7001
+
+###
+
+GET {{ConfigurationExplorer_HostAddress}}/configuration
+
+###
+
+GET {{ConfigurationExplorer_HostAddress}}/configuration-providers

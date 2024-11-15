@@ -1,0 +1,21 @@
+@ConfigurationBinding_HostAddress = https://localhost:7003
+
+GET {{ConfigurationBinding_HostAddress}}/config/1
+Accept: application/json
+
+###
+
+GET {{ConfigurationBinding_HostAddress}}/config/2
+Accept: application/json
+
+###
+
+GET {{ConfigurationBinding_HostAddress}}/config/3
+Accept: application/json
+
+###
+
+GET {{ConfigurationBinding_HostAddress}}/config/4
+Accept: application/json
+
+###

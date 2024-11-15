@@ -1,0 +1,23 @@
+@OptionValidation_HostAddress = https://localhost:7011
+
+### IOptions
+GET {{OptionValidation_HostAddress}}/validate1/
+Accept: application/json
+
+### IOptionsMonitor
+GET {{OptionValidation_HostAddress}}/validate2/
+Accept: application/json
+
+### IOptionsSnapshot
+GET {{OptionValidation_HostAddress}}/validate3/
+Accept: application/json
+
+### Named X
+GET {{OptionValidation_HostAddress}}/validate4/
+Accept: application/json
+
+### Named ""
+GET {{OptionValidation_HostAddress}}/validate5/
+Accept: application/json
+
+###

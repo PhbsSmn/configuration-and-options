@@ -1,0 +1,19 @@
+@OptionConfigure_HostAddress = https://localhost:7012
+
+###
+GET {{OptionConfigure_HostAddress}}/Configure/OrderMonitor
+Accept: application/json
+
+###
+GET {{OptionConfigure_HostAddress}}/Configure/OrderSnapshot
+Accept: application/json
+
+###
+GET {{OptionConfigure_HostAddress}}/Configure/Final/Bad
+Accept: application/json
+
+###
+GET {{OptionConfigure_HostAddress}}/Configure/Final/Good
+Accept: application/json
+
+###

@@ -1,0 +1,8 @@
+﻿[*.cs]
+
+# CA2208: Instantiate argument exceptions correctly
+dotnet_diagnostic.CA2208.severity = silent
+
+
+# IDE0063: Use simple 'using' statement
+csharp_prefer_simple_using_statement = false
