@@ -1,6 +1,6 @@
 @ConfigurationProvider_HostAddress = https://localhost:7002
 
-GET {{ConfigurationProvider_HostAddress}}/weatherforecast/
+GET {{ConfigurationProvider_HostAddress}}/appsettings/
 Accept: application/json
 
 ###
