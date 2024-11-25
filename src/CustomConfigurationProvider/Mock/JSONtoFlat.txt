@@ -1,0 +1,8 @@
+{
+    "AppSettings": {
+        "Setting": "SecretsManagerValue"
+    }
+}
+
+
+"Appsettings:Setting": "SecretsManagerValue"
