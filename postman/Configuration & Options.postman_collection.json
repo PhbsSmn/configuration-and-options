@@ -1,0 +1,383 @@
+{
+	"info": {
+		"_postman_id": "b796f435-f800-4772-86e1-b6b5fc71f9e5",
+		"name": "Configuration & Options",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29873599"
+	},
+	"item": [
+		{
+			"name": "Configuration",
+			"item": [
+				{
+					"name": "1 Explorer",
+					"item": [
+						{
+							"name": "1 Providers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7001/configuration-providers",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7001",
+									"path": [
+										"configuration-providers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 Configuration",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7001/configuration",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7001",
+									"path": [
+										"configuration"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "2 Custom provider",
+					"item": [
+						{
+							"name": "2 Custom provider",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7002/appsettings",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7002",
+									"path": [
+										"appsettings"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "3 Binding",
+					"item": [
+						{
+							"name": "1 I'm feeling lucky",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7003/config/1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7003",
+									"path": [
+										"config",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 Validation",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7003/config/2",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7003",
+									"path": [
+										"config",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3 GetValue<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7003/config/3",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7003",
+									"path": [
+										"config",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4 Bind",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7003/config/4",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7003",
+									"path": [
+										"config",
+										"4"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Options",
+			"item": [
+				{
+					"name": "Types",
+					"item": [
+						{
+							"name": "1 Types",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7010/options",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7010",
+									"path": [
+										"options"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Validation",
+					"item": [
+						{
+							"name": "1 IOptions<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7011/validate1",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7011",
+									"path": [
+										"validate1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 IOptionsMonitor<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7011/validate2",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7011",
+									"path": [
+										"validate2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3 IOptionsSnapshot<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7011/validate3",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7011",
+									"path": [
+										"validate3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4 Named X",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7011/validate4",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7011",
+									"path": [
+										"validate4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "5 Named \"\"",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7011/validate5",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7011",
+									"path": [
+										"validate5"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Configure",
+					"item": [
+						{
+							"name": "1 IOptionsMonitor<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7012/Configure/OrderMonitor",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7012",
+									"path": [
+										"Configure",
+										"OrderMonitor"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "2 IOptionsSnapshot<T>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7012/Configure/OrderSnapshot",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7012",
+									"path": [
+										"Configure",
+										"OrderSnapshot"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "3 Final Named",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7012/Configure/Final/Bad",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7012",
+									"path": [
+										"Configure",
+										"Final",
+										"Bad"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "4 Final Named \"\"",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7012/Configure/Final/Good",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7012",
+									"path": [
+										"Configure",
+										"Final",
+										"Good"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

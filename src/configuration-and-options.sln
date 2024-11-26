@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution items", ".solution items", "{9AB7A909-B978-430C-91FF-F62760E31E16}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. ConfigurationExplorer", "ConfigurationExplorer\1. ConfigurationExplorer.csproj", "{7F0E8527-7404-4B7F-9626-F46292C81EE9}"
