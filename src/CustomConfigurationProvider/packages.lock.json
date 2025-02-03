@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net9.0": {
+      "AWSSDK.SecretsManager": {
+        "type": "Direct",
+        "requested": "[3.7.400.86, )",
+        "resolved": "3.7.400.86",
+        "contentHash": "g4l26oMFCHFOMS2bg/PVUaNq3nuMbTuIBd5BFjElOqrjOvSdBVL2h7pzXkvv4U5gg6TSYMf/uy1JYRbMnc+fTw==",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.401.6, 4.0.0)"
+        }
+      },
+      "AWSSDK.Core": {
+        "type": "Transitive",
+        "resolved": "3.7.401.6",
+        "contentHash": "KpiijwtkN+nhy4UX6rQqulP1UmRw8KsRER19yJd4JgqSqN7DLfPmGD/gM+Nyb4tS0f8YgNUeUI3vkLVrpPGgNQ=="
+      }
+    }
+  }
+}
