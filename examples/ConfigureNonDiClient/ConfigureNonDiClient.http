@@ -1,0 +1,11 @@
+@ConfigureNonDiClient_HostAddress = https://localhost:7013
+
+GET {{ConfigureNonDiClient_HostAddress}}/NonDiClient/
+Accept: application/json
+
+###
+
+GET {{ConfigureNonDiClient_HostAddress}}/DiClient/
+Accept: application/json
+
+###
