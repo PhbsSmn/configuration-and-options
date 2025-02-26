@@ -1,5 +1,3 @@
-using CustomConfigurationProvider.Configuration.Aws;
-
 var builder = WebApplication.CreateBuilder(args);
 //builder.Configuration.AddAwsSecretsManager("Test");
 
