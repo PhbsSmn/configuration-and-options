@@ -9,7 +9,7 @@ builder.Services.AddSingleton(sp =>
     var nonDiClientOptions = sp.GetRequiredService<IOptions<NonDiClientOptions>>().Value;
     return NonDiClientFactory.CreateClient(new NonDiClientSettings() { Key = nonDiClientOptions.Key });
 });
-builder.Services.AddOptions<NonDiClientOptions>().BindConfiguration(NonDiClientOptions.CONFIGURATION_SECTION_PATH);
+builder.Services.AddOptions<NonDiClientOptions>().BindConfiguration(NonDiClientOptions.CONFIGURATION_SECTION_PATH).ValidateDataAnnotations().ValidateOnStart();
 #endregion
 var app = builder.Build();
 app.UseHttpsRedirection();
