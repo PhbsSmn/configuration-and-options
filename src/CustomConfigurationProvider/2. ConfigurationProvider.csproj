@@ -1,14 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-
         <InterceptorsPreviewNamespaces>$(InterceptorsPreviewNamespaces);ConfigurationProvider.Mock</InterceptorsPreviewNamespaces>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.400.43" />
+        <PackageReference Include="AWSSDK.SecretsManager" Version="3.7.400.86" />
     </ItemGroup>
 </Project>
