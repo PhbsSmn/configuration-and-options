@@ -1,5 +1,3 @@
-using Microsoft.Extensions.Options;
-
 var builder = WebApplication.CreateBuilder(args);
 
 #region Attempt 1
@@ -75,7 +73,7 @@ using (var scope = builder.Services.BuildServiceProvider().GetRequiredService<IS
 #endregion
 
 #region Final
-
+/*
 builder.Services.AddOptionsWithValidateOnStart<ServiceOptions>().BindConfiguration(ServiceOptions.CONFIGURATION_SECTION_PATH);
 builder.Services.AddKeyedTransient<IService, AlphaService>(nameof(ServiceToInject.Alpha));
 builder.Services.AddKeyedTransient<IService, BetaService>(nameof(ServiceToInject.Beta));
@@ -85,7 +83,7 @@ builder.Services.AddTransient(sp =>
     var serviceOptions = sp.GetRequiredService<IOptionsMonitor<ServiceOptions>>().CurrentValue;
     return sp.GetRequiredKeyedService<IService>(serviceOptions.ServiceToInject.ToString());
 });
-
+*/
 #endregion
 
 var app = builder.Build();
