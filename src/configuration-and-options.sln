@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. ConfigureNonDiClient", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. OptionalSecretService", "ExampleOptionalSecretService\8. OptionalSecretService.csproj", "{E6B7E33B-D2FF-F4A0-693B-7C799010131D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. ExampleConfigureServiceInjection", "ExampleConfigureServiceInjection\9. ExampleConfigureServiceInjection.csproj", "{3AAD9116-59E6-4BB6-B8AB-509059E4B10F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{E6B7E33B-D2FF-F4A0-693B-7C799010131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6B7E33B-D2FF-F4A0-693B-7C799010131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6B7E33B-D2FF-F4A0-693B-7C799010131D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAD9116-59E6-4BB6-B8AB-509059E4B10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAD9116-59E6-4BB6-B8AB-509059E4B10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAD9116-59E6-4BB6-B8AB-509059E4B10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAD9116-59E6-4BB6-B8AB-509059E4B10F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{5074A6B7-5983-4AB4-A1E3-3B61ED2108EE} = {779F0844-8577-4CC8-82CD-E984319A5682}
 		{942B10C9-B771-589F-F8F3-A5C559C0C496} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{E6B7E33B-D2FF-F4A0-693B-7C799010131D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3AAD9116-59E6-4BB6-B8AB-509059E4B10F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {506CCF05-EB9B-459D-8C53-DDCDE7CA0ED3}
