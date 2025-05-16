@@ -1,7 +1,7 @@
-﻿using Microsoft.Extensions.Configuration.Json;
-using System.Text;
-using Amazon.SecretsManager;
+﻿using Amazon.SecretsManager;
 using Amazon.SecretsManager.Model;
+using Microsoft.Extensions.Configuration.Json;
+using System.Text;
 
 namespace CustomConfigurationProvider.Configuration.Aws;
 

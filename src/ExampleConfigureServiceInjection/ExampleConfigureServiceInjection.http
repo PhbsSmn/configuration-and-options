@@ -1,0 +1,6 @@
+@ExampleConfigureServiceInjection_HostAddress = https://localhost:7015
+
+GET {{ExampleConfigureServiceInjection_HostAddress}}/Service
+Accept: application/json
+
+###
